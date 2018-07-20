@@ -424,7 +424,7 @@ class OBDFrame(wx.Frame):
         """
         Constructor.
         """
-        wx.Frame.__init__(self, None, wx.ID_ANY, "WildOBD", style=DEFAULT_FRAME_STYLE)
+        wx.Frame.__init__(self, None, wx.ID_ANY, "OBD-Pi")
 
         image = wx.Image(BACKGROUND_FILENAME) 
         width, height = wx.GetDisplaySize() 
@@ -479,11 +479,11 @@ class OBDFrame0(wx.Frame):
         """
         Constructor.
         """
-        wx.Frame.__init__(self, None, wx.ID_ANY, "WildOBD", style=DEFAULT_FRAME_STYLE)
+        wx.Frame.__init__(self, None, wx.ID_ANY, "")
 
         image = wx.Image(BACKGROUND_FILENAME) 
         width, height = wx.GetDisplaySize() 
-        image = image.Scale(400, 400, wx.IMAGE_QUALITY_HIGH)
+        image = image.Scale(width, height, wx.IMAGE_QUALITY_HIGH)
         self.bitmap = wx.BitmapFromImage(image) 
         self.Bind(wx.EVT_PAINT, self.OnPaint)
 
@@ -508,7 +508,7 @@ class OBDSplashScreen(wx.SplashScreen):
 
         image = wx.Image(SPLASHSCREEN_FILENAME)
         width, height = wx.GetDisplaySize() 
-        image = image.Scale(400, 400, wx.IMAGE_QUALITY_HIGH)
+        image = image.Scale(width, height, wx.IMAGE_QUALITY_HIGH)
         bitmap = wx.BitmapFromImage(image) 
         
         splashStyle = wx.SPLASH_CENTRE_ON_SCREEN | wx.SPLASH_TIMEOUT
