@@ -197,6 +197,7 @@ class OBDPort:
              #debug_display(self._notify_window, 3, "Get result:" + buffer)
              if(buffer == ""):
                 return None
+            print "Received Data\n"
              return buffer
          else:
             debug_display(self._notify_window, 3, "NO self.port!")
