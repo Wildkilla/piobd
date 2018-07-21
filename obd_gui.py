@@ -13,7 +13,7 @@ import time
 from threading import Thread
 
 from obd_capture import OBD_Capture
-from obd_sensors import SENSORS
+from obd_sensors import RESTRICTED_SENSORS
 from obd_sensors import *
 
 #-------------------------------------------------------------------------------
