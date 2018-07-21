@@ -25,6 +25,7 @@
       <itemPath>main.cpp</itemPath>
       <itemPath>nbproject</itemPath>
       <itemPath>obd2_codes.py</itemPath>
+      <itemPath>obd_CMDLine.py</itemPath>
       <itemPath>obd_capture.py</itemPath>
       <itemPath>obd_gui.py</itemPath>
       <itemPath>obd_io.py</itemPath>
@@ -82,6 +83,8 @@
       <item path="nbproject" ex="false" tool="3" flavor2="0">
       </item>
       <item path="obd2_codes.py" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="obd_CMDLine.py" ex="false" tool="3" flavor2="0">
       </item>
       <item path="obd_capture.py" ex="false" tool="3" flavor2="0">
       </item>
@@ -147,6 +150,8 @@
       <item path="nbproject" ex="false" tool="3" flavor2="0">
       </item>
       <item path="obd2_codes.py" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="obd_CMDLine.py" ex="false" tool="3" flavor2="0">
       </item>
       <item path="obd_capture.py" ex="false" tool="3" flavor2="0">
       </item>
