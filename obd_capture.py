@@ -70,7 +70,7 @@ class OBD_Capture():
         for supportedSensor in self.supportedSensorList:
             sensorIndex = supportedSensor[0]
             (name, value, unit) = self.port.sensor(sensorIndex)
-            print("Name: " name " Value: " value " Unit: " unit)
+            print("Name: " + name + " Value: " + value + " Unit: " + unit)
             text += name + " = " + str(value) + " " + str(unit) + "\n"
 
         return text
